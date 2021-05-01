@@ -24,8 +24,58 @@
   color: white;
 }
 
+.App-navbar div {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-body {
+  width: 80vw;
+  margin: 80px 0px -160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 95%;
+  margin-bottom: 10px;
+}
+
+.App-body p {
+  font-size: 0.8em;
+  margin-bottom: 60px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.White-button button {
+  border-style: none;
+  color: darkblue;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.App-arcticles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.App-arcticles article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
